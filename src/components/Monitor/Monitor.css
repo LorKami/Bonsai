@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+/* font-family: 'VT323', monospace; */
+
+  h2, p {
+    font-family: 'VT323', monospace;
+  }
+
+.NavbarSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    /* border: 2px solid #7bff00; */
+}
+
+.Navbarboxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    /* border: 2px solid #ff0000; */
+}
+
+.NavbarMenuLeft {
+    display: flex;
+    justify-content: space-around;
+    width: 33%;
+    /* border: 2px solid #f7f0f0; */
+}
+
+.NavbarMenuLeft a {
+    cursor: pointer;
+    font-family: 'VT323', monospace;
+    color: rgb(0, 139, 23);
+    font-size: 30px;
+}
+
+.NavbarMenuLeft a:hover {
+    color: rgb(1, 209, 36);
+}
+
+
+.NavbarLogoCenter {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 33%;
+    font-size: 30px;
+    color: rgb(0, 139, 23);
+    /* border: 2px solid #1505fc; */
+}
+
+.NavbarLogoCenter img {
+    display: flex;
+    max-width: 100%;
+    height: 120px;
+    width: auto;
+}
+
+.NavbarSocialsRight {
+    display: flex;
+    justify-content: flex-end;
+    width: 33%;
+    /* border: 2px solid #ccee09; */
+}
+
+.NavbarSocialsRightFix {
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+    /* border: 2px solid #092bee; */
+}
+
+.NavbarSocialsRightFix a {
+    color: rgb(0, 139, 23);
+    text-decoration: none;
+}
+
+.NavbarSocialsRightFix a:hover {
+    color: rgb(1, 209, 36);
+}
+
+@media screen and (max-width: 768px) {
+    .NavbarMenuLeft {
+        display: flex;
+        justify-content: space-around;
+        width: 40%;
+        /* border: 2px solid #f7f0f0; */
+    }
+    .NavbarSocialsRightFix {
+        display: flex;
+        width: 50%;
+        justify-content: space-around;
+        /* border: 2px solid #092bee; */
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .NavbarSection {
+        height: 70px;
+    }
+    .NavbarLogoCenter {
+        display: none;
+    }
+    .NavbarMenuLeft {
+        display: flex;
+        justify-content: space-around;
+        width: 70%;
+        /* border: 2px solid #f7f0f0; */
+    }
+    .NavbarSocialsRightFix {
+        display: flex;
+        width: 60%;
+        justify-content: space-around;
+        /* border: 2px solid #092bee; */
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .NavbarMenuLeft a {
+        font-size: 25px;
+    }
+}
+
+/* ======================================== */
+
+.MonitorSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    /* border: 2px solid #092bee; */
+}
+
+.MonitorBoxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 600px;
+    /* border: 2px solid #ee9209; */
+}
+
+.MonitorBonsai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: 2px solid #0606da; */
+}
+
+.MonitorBonsai img {
+    display: flex;
+    max-width: 100%;
+    height: 550px;
+    width: auto;
+}
+
+.MonitorIntro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid #f8f8f7; */
+}
+
+.MonitorInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    /* border: 2px solid #2e02f1; */
+}
+
+.MonitorInfo h2 {
+    color: rgb(0, 139, 23);
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.MonitorInfoText {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    /* border: 2px solid #f8f8f7; */
+}
+
+.MonitorInfoText p {
+    color: rgb(0, 139, 30);
+    font-family: 'VT323', monospace;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.MonitorButtons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 20%;
+    /* border: 2px solid #f10202; */
+}
+
+.MonitorButtons a {
+    display: flex;
+    text-decoration: none;
+    border: 3px solid white;
+    padding: 18px;
+    border-radius: 30px;
+    color: #008b1e;
+    font-size: 30px;
+    font-family: 'VT323', monospace;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background-size: 150% 150%;
+    transition: all 0.2s ease-in-out;
+}
+
+.MonitorButtons a:hover {
+    background-position: 120% 120%;
+}
+
+@media screen and (max-width: 1440px) {
+    .MonitorBonsai img {
+        display: flex;
+        max-width: 100%;
+        height: 500px;
+        width: auto;
+    }  
+    .MonitorInfo {
+        width: 90%;
+        height: 80%;
+        /* border: 2px solid #2e02f1; */
+    } 
+    .MonitorButtons a {
+        font-size: 20px;
+    } 
+}
+
+@media screen and (max-width: 1024px) {
+    .MonitorBoxes {
+        width: 90%;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .MonitorBoxes {
+        width: 100%;
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .MonitorSection {
+        padding-top: 90px;
+    }
+    .MonitorBoxes {
+        flex-direction: column;
+    }
+    .MonitorBonsai img {
+        display: flex;
+        max-width: 100%;
+        height: 300px;
+        width: auto;
+    } 
+    .MonitorButtons {
+        padding-top: 90px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .MonitorSection {
+        padding-top: 150px;
+    }
+}
+
+/* ======================================== */
+.AboutSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid #f10202; */
+}
+
+.Aboutbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    /* border: 2px solid #f10202; */
+}
+
+.AboutText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #008b1e;
+    border: 5px white solid;
+    border-radius: 50px;
+}
+
+.AboutText h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.AboutText p {
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.AboutText img {
+    display: flex;
+    width: 500px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #008b1e;
+}
+
+@media screen and (max-width: 425px) {
+    .AboutSection {
+        height: auto;
+        padding-top: 220px;
+    }
+    .Aboutbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        /* border: 2px solid #f10202; */
+    }
+    .AboutText img {
+        display: flex;
+        width: 200px;
+    }
+    
+}
+
+/* ======================================== */
+
+.WhitePaperSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.WhitePaperBoxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.WhitePaperBoxes h2 {
+    color: rgb(0, 139, 23);
+    font-size: 50px;
+}
+
+.accordion {
+    box-sizing: border-box;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    width: 100%;
+}
+
+.accordion-select {
+    cursor: pointer;
+    margin: 0;
+    opacity: 0;
+    z-index: 1;
+}
+
+.accordion-title {
+    position: relative;
+}
+
+.accordion-title:not(:nth-last-child(2))::after {
+    border: 1px solid transparent;
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.accordion-title span {
+    bottom: 0px;
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.accordion-content {
+    box-sizing: border-box;
+    overflow: auto;
+    position: relative;
+    transition: margin 0.3s ease 0.1s;
+}
+
+.accordion-select:checked + .accordion-title + .accordion-content {
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+/* Generated styles starts here */
+
+.accordion {
+    border-color: #ffffff;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    flex-direction: column;
+    height: auto;
+} 
+
+.accordion-title,
+.accordion-select  {
+    background-color: #b2fdc2;
+    color: #008b1e;
+    width: 100%;
+    height: 57px;
+    font-size: 25px;
+    font-family: 'VT323', monospace;
+}
+
+.accordion-select {
+    margin-bottom: -57px;
+    margin-right: -57px;
+}
+
+.accordion-title:not(:nth-last-child(2))::after {
+    border-bottom-color: rgb(0, 110, 23);
+    border-right-color: transparent;
+} 
+
+.accordion-select:hover + .accordion-title,
+.accordion-select:checked + .accordion-title {
+    background-color: #b2fdc2;
+} 
+
+ .accordion-title span  {	
+    transform: rotate(0deg);
+    -ms-writing-mode: lr-tb;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+    padding-left: 29px;
+    padding-right: 29px;
+    line-height: 57px;
+} 
+
+.accordion-content {
+    background-color: #e5ffeb;
+    color: #008b1e;
+    text-transform: uppercase;
+    font-family: 'VT323', monospace;
+    font-size: 25px;
+    height: 280px;
+    margin-bottom: -280px;
+    margin-right: 0;
+    padding: 30px;
+    width: 100%;
+} 
+
+@media screen and (max-width: 768px) {
+    .WhitePaperBoxes {
+        width: 80%;
+    } 
+}
+
+@media screen and (max-width: 425px) {
+    .accordion-title,
+    .accordion-select  {
+        font-size: 20px;
+    }
+    .accordion-content {
+        font-size: 20px;
+    } 
+}
+
+
+/* ======================================== */
+
+.FooterSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+
+.FooterBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.FooterBox p {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .FooterBox {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .FooterBox {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .FooterBox p {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+/* ======================================== */
+.BottonUp {
+    z-index: 100;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    /* border: 2px solid #f10202; */
+    color: #025013;
+    cursor: pointer;
+}
