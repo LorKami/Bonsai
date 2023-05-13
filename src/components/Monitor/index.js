@@ -61,7 +61,7 @@ const Monitor = () => {
             </div>
 
             <div className='MonitorButtons'>
-            <a href='#' target='_blank'>Buy on Pinksale</a>
+            <a href='#' target='_blank'>Buy on Raydium</a>
             <a href='#' target='_blank'>View BirdEye</a>
           </div>
 
@@ -94,7 +94,7 @@ const Monitor = () => {
 
      <input type="radio" name="select" class="accordion-select" checked />
     <div className="accordion-title"><span>Unite with the Community:</span></div>
-    <div className="accordion-content">Here, no centralized authority reigns, nor does a governing body of Pepe Mama hold sway. Power is bestowed upon the valiant token holders who, with a shared purpose, strive to safeguard the entity's greater good</div> 
+    <div className="accordion-content">No centralized authority reigns, nor does a governing body of Bonsaid hold sway. Power is bestowed upon the valiant token holders who, with a shared purpose, strive to safeguard the entity's greater good</div> 
          
          <input type="radio" name="select" class="accordion-select" />
     <div className="accordion-title"><span>Embark on the Journey of Development:</span></div>
